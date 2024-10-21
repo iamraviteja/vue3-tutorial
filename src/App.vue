@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/section2" active-class="active">Section 2</RouterLink>
         <RouterLink to="/section3" active-class="active">Section 3</RouterLink>
         <RouterLink to="/section4" active-class="active">Section 4</RouterLink>
+        <RouterLink to="/section5" active-class="active">Section 5</RouterLink>
       </nav>
     </div>
     <div class="content">
