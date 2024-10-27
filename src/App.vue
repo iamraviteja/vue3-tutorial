@@ -11,6 +11,24 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/section3" active-class="active">Section 3</RouterLink>
         <RouterLink to="/section4" active-class="active">Section 4</RouterLink>
         <RouterLink to="/section5" active-class="active">Section 5</RouterLink>
+        <RouterLink to="/environment-variables" active-class="active"
+          >Environment Variables</RouterLink
+        >
+        <RouterLink to="/debouncing" active-class="active"
+          >Debouncing</RouterLink
+        >
+        <RouterLink to="/aborting-requests" active-class="active"
+          >Aborting Requests</RouterLink
+        >
+        <RouterLink to="/axios-interceptors" active-class="active"
+          >Axios Interceptors</RouterLink
+        >
+        <RouterLink to="/using-v-memo" active-class="active"
+          >Using v-memo</RouterLink
+        >
+        <RouterLink to="/using-keep-alive" active-class="active"
+          >Using keep-alive</RouterLink
+        >
       </nav>
     </div>
     <div class="content">

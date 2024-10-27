@@ -59,3 +59,18 @@ pnpm test:e2e
 ```sh
 pnpm lint
 ```
+
+# Vue 3 Optimization Techniques
+
+This project demonstrates various optimization techniques in Vue 3. Each technique is implemented in a separate section with accompanying explanations.
+
+## Sections
+
+1. Loading Environment Variables
+2. Debouncing
+3. Aborting Requests
+4. Using Axios Interceptors
+5. Using v-memo
+6. Using keep-alive
+7. Loading Components Asynchronously
+8. Lazy Loading Images

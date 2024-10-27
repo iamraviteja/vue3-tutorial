@@ -29,6 +29,47 @@ const router = createRouter({
       name: 'Section5',
       component: () => import('@/views/Section5.vue'),
     },
+    // New routes for optimization techniques
+    {
+      path: '/environment-variables',
+      name: 'environmentVariables',
+      component: () => import('@/views/EnvironmentVariables.vue'),
+    },
+    {
+      path: '/debouncing',
+      name: 'debouncing',
+      component: () => import('@/views/Debouncing.vue'),
+    },
+    {
+      path: '/aborting-requests',
+      name: 'abortingRequests',
+      component: () => import('@/views/AbortingRequests.vue'),
+    },
+    {
+      path: '/axios-interceptors',
+      name: 'axiosInterceptors',
+      component: () => import('@/views/AxiosInterceptors.vue'),
+    },
+    {
+      path: '/using-v-memo',
+      name: 'usingVMemo',
+      component: () => import('@/views/UsingVMemo.vue'),
+    },
+    {
+      path: '/using-keep-alive',
+      name: 'usingKeepAlive',
+      component: () => import('@/views/UsingKeepAlive.vue'),
+    },
+    {
+      path: '/async-components',
+      name: 'asyncComponents',
+      component: () => import('@/views/AsyncComponents.vue'),
+    },
+    {
+      path: '/lazy-loading-images',
+      name: 'lazyLoadingImages',
+      component: () => import('@/views/LazyLoadingImages.vue'),
+    },
   ],
 })
 
